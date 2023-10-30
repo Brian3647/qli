@@ -2,6 +2,12 @@
 name = "qli"
 version = "0.1.0"
 edition = "2021"
+include = ["src/**.rs", "Cargo.*", "README.md", "LICENSE"]
+authors = ["Brian3647 <victoris3647@gmail.com>"]
+license = "MIT"
+description = "🐳 Extremelly small rust binary to generate http requests using json/yaml"
+homepage = "https://github.com/Brian3647/qli"
+repository = "https://github.com/Brian3647/qli"
 
 [dependencies]
 anyhow = "1.0.75"

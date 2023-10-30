@@ -9,7 +9,7 @@ if [ $(git rev-parse HEAD) != $(git rev-parse @{u}) ]; then
 fi
 
 TMPDIR=$(mktemp -d)
-cp -r . $TMPDIR
+git clone https://github.com/Brian3647/qli $TMPDIR
 cd $TMPDIR
 cargo publish
 
