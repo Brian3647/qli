@@ -56,12 +56,12 @@ body: |
 // test.json
 
 {
-	"url": "https://localhost:3000",
-	"method": "get",
-	"headers": {
-		"my-header": "1234"
-	},
-	"body": "my body"
+    "url": "https://localhost:3000",
+    "method": "get",
+    "headers": {
+        "my-header": "1234"
+    },
+    "body": "my body"
 }
 ```
 
