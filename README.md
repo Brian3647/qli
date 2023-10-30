@@ -47,7 +47,7 @@ ARGS:
 url: http://localhost:3000
 method: get
 headers:
-    - X-header1: my-header
+    X-header1: my-header
 body: |
     { "abc": "dce" }
 ```
