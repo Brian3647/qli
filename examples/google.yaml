@@ -1,0 +1,6 @@
+url: https://google.com
+method: get
+headers:
+    X-header1: abc
+body: |
+    { "abc": "dce" }

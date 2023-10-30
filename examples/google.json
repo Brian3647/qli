@@ -1,0 +1,8 @@
+{
+	"url": "https://localhost:3000",
+	"method": "get",
+	"headers": {
+		"my-header": "1234"
+	},
+	"body": "your body"
+}
